@@ -10,7 +10,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Quantas posições o vetor terá? ");
+		System.out.print("Quantas posições o vetor terá? ");
 		int n = sc.nextInt();
 		
 		int vetor[] = new int[n];
